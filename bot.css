@@ -211,12 +211,7 @@
 .bpw-keyboard-quick_reply:hover{
   background-color:rgb(59, 60, 163);
 }
-.bpw-send-button:disabled,
-.bpw-send-button:disabled:hover {
-  opacity: 0.4;
-  background-image: url(./send.png);
-  cursor: default;
-}
+
 .bpw-send-button {
   display: flex; 
   justify-content: center; 
