@@ -1,3 +1,5 @@
+//the chat button
+
 .bpw-floating-button {
   float: right;
   background-color:rgb(59, 60, 163);
@@ -19,7 +21,9 @@
   background-clip: padding-box;
   transition: width 1s, height 1s;
 }
-
+.bpw-floating-button:hover{
+  background-color: rgb(27, 28, 130);
+}
 .bpw-floating-button .bpw-floating-button-unread {
   display: block;
   position: absolute;
@@ -33,6 +37,15 @@
   background-color: #ff5d5d;
   box-shadow: 0 0 4px 0 rgb(27, 28, 130);
 }
+//end of chat button
+
+
+
+
+
+
+
+//Header
 
 .bpw-header-icon {
   border: 2px solid white;
@@ -41,7 +54,7 @@
   margin: 0;
   color: white;
   line-height: 0;
-  margin-left: 20px; /* Change to your desired value */
+  margin-left: 20px; /
   text-align: right;
   vertical-align: middle;
   cursor: pointer;
