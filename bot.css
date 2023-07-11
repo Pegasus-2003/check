@@ -249,7 +249,7 @@
 }
 .bpw-send-buttons {
   display: flex;
-  flex-direction: row;
+  /*flex-direction: row;*/
 }
 .bpw-voice-recorder {
   display: flex;
@@ -299,5 +299,8 @@
 {
 
 .bpw-button:hover{
+  background-color:rgb(59, 60, 163);
+}
+.bpw-button, .bpw-button-alt :hover{
   background-color:rgb(59, 60, 163);
 }
