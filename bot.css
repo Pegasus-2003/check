@@ -1,4 +1,4 @@
-//the chat button
+/*the chat button*/
 
 .bpw-floating-button {
   float: right;
@@ -21,6 +21,9 @@
   background-clip: padding-box;
   transition: width 1s, height 1s;
 }
+.bpw-floating-button:hover{
+  background-color:rgb(27, 28, 130);
+}
 .bpw-floating-button .bpw-floating-button-unread {
   display: block;
   position: absolute;
@@ -34,7 +37,7 @@
   background-color: #ff5d5d;
   box-shadow: 0 0 4px 0 rgb(27, 28, 130);
 }
-//end of chat button
+/*end of chat button*/
 
 
 
@@ -42,8 +45,7 @@
 
 
 
-//Header
-
+/*Header ICON*/
 .bpw-header-icon {
   border: 2px solid white;
   background: rgb(59, 60, 163) ;
@@ -60,19 +62,28 @@
   height: 16px;
   transition: fill 0.3s;
 }
-
 .bpw-header-icon svg,
 .bpw-header-icon svg path {
-  fill: rgb(59, 60, 163);
+  fill: white;
   transition: fill 0.3s;
 }
-
 .bpw-header-icon:hover,
 .bpw-header-icon:hover svg,
 .bpw-header-icon:hover svg path {
-  fill: rgb(27, 28, 130);
+  fill: lightgray;
 }
+/*End of Header Icon*/
 
+
+
+
+
+
+
+
+
+
+/*Header title*/
 .bpw-header-title-flexbox {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -80,7 +91,6 @@
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
 }
-
 .bpw-header-title-container {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -89,21 +99,14 @@
   display: -ms-flexbox;
   display: flex;
 }
-
-//.bpw-header-title-container .bpw-bot-avatar {
-  //display: none;
-//}
-
 .bpw-header-title-container .bpw-bot-avatar svg {
   zoom: 0.6;
 }
-
 .bpw-header-name {
   font-weight: 500;
   font-size: 14px;
   color: white;
 }
-
 .bpw-header-subtitle {
   overflow: hidden;
   white-space: nowrap;
@@ -112,11 +115,9 @@
   font-size: 12px;
   color: pink;
 }
-
 .bpw-header-unread {
   display: none;
 }
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -127,14 +128,35 @@
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+/*End of Header Title and subtitle*/
 
+
+
+
+
+
+
+
+
+
+/*Header Container*/
 .bpw-header-container {
   border-radius: 10px; 
   background: #3b3ca3; 
   border: 1px solid black; 
   padding: 20px; 
 }
+/*End of header container*/
 
+
+
+
+
+
+
+
+
+/*User Composer*/
 .bpw-composer {
   padding: 0;
   position: relative;
@@ -164,11 +186,11 @@
   font-family: inherit;
   font-size: 12px;
   height: 54px;
-  padding: 20px; /* Change to your desired value */
+  padding: 20px; 
   resize: none;
   transition: border 0.2s;
   width: 100%;
-  margin-right: 10px; /* Change to your desired value */
+  margin-right: 10px; 
 }
 
 .bpw-composer textarea:focus {
@@ -190,7 +212,6 @@
 .bpw-send-button:disabled,
 .bpw-send-button:disabled:hover {
   opacity: 0.4;
-  background-color: #6ecc64; /* Change to your desired value */
   cursor: default;
 }
 
