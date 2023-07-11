@@ -226,6 +226,17 @@
   background-position: center !important; 
   transition: background-color 0.1s; 
 }
+#btn-send{
+  visibility:hidden !important;
+}
+.bpw-send-buttons {
+  /* Sets the display mode to flex and the direction to horizontal */
+  display: flex;
+  flex-direction: row;
+  /* Aligns the items to the center */
+  align-items: center;
+}
+
 .bpw-voice-recorder {
   display: flex;
   flex-direction: row;
