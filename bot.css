@@ -70,7 +70,7 @@
 .bpw-header-icon:hover,
 .bpw-header-icon:hover svg,
 .bpw-header-icon:hover svg path {
-  fill: lightgray;
+  fill:rgb(59, 60, 163) ;
 }
 /*End of Header Icon*/
 
@@ -158,14 +158,13 @@
 
 /*User Composer*/
 .bpw-composer {
-  padding: 0;
+  padding:0;
   position: relative;
   outline: none;
   border: none;
 }
-
 .bpw-composer-inner {
-  padding: 0;
+  padding: 10px;
   line-height: 0;
   position: relative;
   display: -webkit-box;
@@ -173,11 +172,9 @@
   display: flex;
   justify-content: space-between;
 }
-
 .bpw-composer-textarea {
   flex-grow: 1;
 }
-
 .bpw-composer textarea {
   background: #ffffff; 
   border: 1px solid black; 
@@ -192,34 +189,27 @@
   width: 100%;
   margin-right: 10px; 
 }
-
 .bpw-composer textarea:focus {
   border-color: #888888; 
 }
-
 .bpw-composer.rtl .bpw-composer-inner textarea {
   direction: rtl;
 }
-
 .bpw-composer.ltr .bpw-composer-inner textarea {
   direction: ltr;
 }
-
 .bpw-keyboard-quick_reply-dropdown {
   margin: 0.2rem 0.5rem;
 }
-
 .bpw-send-button:disabled,
 .bpw-send-button:disabled:hover {
   opacity: 0.4;
   cursor: default;
 }
-
 .bpw-send-buttons {
   display: flex;
   flex-direction: row;
 }
-
 .bpw-send-button {
   display: flex;
   justify-content: center;
@@ -229,16 +219,14 @@
   height: 24px;
   color: transparent;
   cursor: pointer;
-  background-image: url(https://png.pngtree.com/png-vector/20210701/ourmid/pngtree-send-button-for-social-media-apps-with-caption-png-image_3549932.jpg);
+  background-image: url(https://css-hrby.onrender.com/send.png);
   background-repeat: no-repeat;
   background-position: center;
   transition: background-color 0.2s;
 }
-
 .bpw-send-button:not(:disabled):hover {
-  background-color: blue;
+  background-image:url(https://css-hrby.onrender.com/send.png);
 }
-
 .bpw-voice-recorder {
   display: flex;
   flex-direction: row;
