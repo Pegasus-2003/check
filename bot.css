@@ -175,7 +175,7 @@
   justify-content: space-between;
 }
 .bpw-composer-textarea {
-  flex-grow: 1;
+  flex: 2;
 }
 .bpw-composer textarea {
   background: #ffffff; 
@@ -203,8 +203,12 @@
 .bpw-keyboard-quick_reply-dropdown {
   margin: 0.2rem 0.5rem;
 }
-
-
+.bpw-keyboard-quick_reply{
+  border-radius:10px;
+}
+.bpw-keyboard-quick_reply:hover{
+  background-color:rgb(59, 60, 163);
+}
 .bpw-send-button {
   display: flex;
   justify-content: center;
@@ -255,7 +259,7 @@
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content{
   font-color:black;
   background-color:#faf7f7;  
-  border-radius: 10px; 
+  border-radius: 15px; 
 }
 /*End of Bot reply*/
 
@@ -263,6 +267,6 @@
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content{
   font-color:white;
   background-color:rgb(59, 60, 163);
-  border-radius: 10px; 
+  border-radius: 15px; 
 }
 /*End of user reply*/
