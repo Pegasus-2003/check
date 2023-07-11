@@ -1,38 +1,213 @@
-.bpw-layout {
-      background-color: blue;
-      height: 100px;
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      z-index: 9999;
-    }
+.bpw-floating-button {
+  float: right;
+  fill: rgb(59, 60, 163);
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px 0 rgb(27, 28, 130);
+  overflow: hidden;
+  padding: 0;
+  border: none;
+  background-clip: padding-box;
+  transition: width 1s, height 1s;
+}
 
-    .bpw-header-title {
-      color: white;
-    }
+.bpw-floating-button .bpw-floating-button-unread {
+  display: block;
+  position: absolute;
+  right: 2px;
+  bottom: 54px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  line-height: 20px;
+  color: #fff;
+  background-color: #ff5d5d;
+  box-shadow: 0 0 4px 0 rgb(27, 28, 130;
+}
 
-    .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-      color: white;
-      background-color: #007bff;
-    }
+.bpw-header-icon {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  color: blue;
+  line-height: 0;
+  margin-left: 20px; /* Change to your desired value */
+  text-align: right;
+  vertical-align: middle;
+  cursor: pointer;
+  fill: red;
+  width: 16px;
+  height: 16px;
+  transition: fill 0.3s;
+}
 
-    .bpw-header-icon:hover {
-      fill: white;
-    }
+.bpw-header-icon svg,
+.bpw-header-icon svg path {
+  fill: blue;
+  transition: fill 0.3s;
+}
 
-    .bpw-header-container {
-      border: none;
-      background-color: #007bff;
-      border-radius: 5px 5px 0 0;
-    }
+.bpw-header-icon:hover,
+.bpw-header-icon:hover svg,
+.bpw-header-icon:hover svg path {
+  fill: yellow;
+}
 
-    .bpw-header-title-container .bpw-bot-avatar {
-      display: none;
-    }
+.bpw-header-title-flexbox {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
 
-    .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-      background-color: #f0f0f0;
-      border-radius: 5px;
-    }
+.bpw-header-title-container {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bpw-header-title-container .bpw-bot-avatar {
+  display: none;
+}
+
+.bpw-header-title-container .bpw-bot-avatar svg {
+  zoom: 0.6;
+}
+
+.bpw-header-name {
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+}
+
+.bpw-header-subtitle {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 300;
+  font-size: 12px;
+  color: pink;
+}
+
+.bpw-header-unread {
+  display: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.bpw-header-container {
+  border-radius: 10px; 
+  background: #3b3ca3; 
+  border: 1px solid black; 
+  padding: 20px; 
+}
+
+.bpw-composer {
+  padding: 0;
+  position: relative;
+  outline: none;
+  border: none;
+}
+
+.bpw-composer-inner {
+  padding: 0;
+  line-height: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bpw-composer-textarea {
+  flex-grow: 2;
+}
+
+.bpw-composer textarea {
+  background: #ffffff; /* Change to your desired value */
+  border: 1px solid black; /* Change to your desired value */
+  border-radius: 15px; /* Change to your desired value */
+  color: #000000; 
+  font-family: inherit;
+  font-size: 12px;
+  height: 54px;
+  padding: 20px; /* Change to your desired value */
+  resize: none;
+  transition: border 0.2s;
+  width: 100%;
+  margin-right: 10px; /* Change to your desired value */
+}
+
+.bpw-composer textarea:focus {
+  border-color: #888888; 
+}
+
+.bpw-composer.rtl .bpw-composer-inner textarea {
+  direction: rtl;
+}
+
+.bpw-composer.ltr .bpw-composer-inner textarea {
+  direction: ltr;
+}
+
+.bpw-keyboard-quick_reply-dropdown {
+  margin: 0.2rem 0.5rem;
+}
+
+.bpw-send-button:disabled,
+.bpw-send-button:disabled:hover {
+  opacity: 0.4;
+  background-color: #6ecc64; /* Change to your desired value */
+  cursor: default;
+}
+
+.bpw-send-buttons {
+  display: flex;
+  flex-direction: row
+
+.bpw-send-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 24px;
+  height: 24px;
+  color: transparent;
+  cursor: pointer;
+  background-image: url(https://png.pngtree.com/png-vector/20210701/ourmid/pngtree-send-button-for-social-media-apps-with-caption-png-image_3549932.jpg) ;
+  background-repeat: no-repeat ;
+  background-position: center ;
+  transition: background-color 0.2s;
+}
+
+.bpw-send-button:not(:disabled):hover {
+  background-color: blue;
+}
+
+.bpw-voice-recorder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
