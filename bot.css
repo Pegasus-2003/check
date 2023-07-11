@@ -213,30 +213,39 @@
 }
 .bpw-send-button:disabled,
 .bpw-send-button:disabled:hover {
-  /* Sets the opacity to 0.4 to make the button appear slightly transparent */
   opacity: 0.4;
-  /* Sets the background color to a variable named "--theme-primary" */
-  background-color: blue;
-  /* Changes the cursor to the default cursor */
+  background-image: url(./send.png);
   cursor: default;
 }
 .bpw-send-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  width: 24px;
-  height: 24px;
-  color: pink;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 10px;
+  padding: 20px; 
+  width: 24px; 
+  height: 24px; 
+  color: transparent; 
   cursor: pointer;
-  background-image: url(./send.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  transition: background-color 0.2s;
+  background-image: url(./send.png) !important; 
+  background-repeat: no-repeat !important; 
+  background-position: center !important; 
+  transition: background-color 0.1s; 
 }
-.bpw-send-button:hover {
-  opacity: 0.4;
-  cursor: default;
+.bpw-send-button:not(:disabled):hover {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 10px;
+  padding: 20px; 
+  width: 24px; 
+  height: 24px; 
+  color: transparent; 
+  cursor: pointer;
+  background-image: url(./send.png) !important; 
+  background-repeat: no-repeat !important; 
+  background-position: center !important; 
+  transition: background-color 0.1s; 
 }
 .bpw-send-buttons {
   display: flex;
@@ -280,3 +289,15 @@
   border-radius: 15px; 
 }
 /*End of user reply*/
+
+
+
+
+
+.bpw-button{
+  border-radius:10px;
+{
+
+.bpw-button:hover{
+  background-color:  background-color:rgb(59, 60, 163);
+}
