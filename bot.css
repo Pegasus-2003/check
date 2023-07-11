@@ -232,4 +232,34 @@
   flex-direction: row;
   align-items: center;
 }
+.bpw-powered{
+  display:none
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Bot reply message*/
+.bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content{
+  font-color:black;
+  background-color:#bebec2;  
+}
+/*End of Bot reply*/
+
+/*User Reply*/
+.bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content{
+  font-color:white;
+  background-color:rgb(59, 60, 163);
+}
+/*End of user reply*/
