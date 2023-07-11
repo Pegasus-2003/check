@@ -1,5 +1,6 @@
 .bpw-floating-button {
   float: right;
+  color:rgb(59, 60, 163);
   fill: rgb(59, 60, 163);
   cursor: pointer;
   outline: none;
