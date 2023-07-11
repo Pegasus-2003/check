@@ -209,6 +209,15 @@
 .bpw-keyboard-quick_reply:hover{
   background-color:rgb(59, 60, 163);
 }
+.bpw-send-button:disabled,
+.bpw-send-button:disabled:hover {
+  /* Sets the opacity to 0.4 to make the button appear slightly transparent */
+  opacity: 0.4;
+  /* Sets the background color to a variable named "--theme-primary" */
+  background-color: blue;
+  /* Changes the cursor to the default cursor */
+  cursor: default;
+}
 .bpw-send-button {
   display: flex;
   justify-content: center;
@@ -216,9 +225,9 @@
   padding: 20px;
   width: 24px;
   height: 24px;
-  color: transparent;
+  color: pink;
   cursor: pointer;
-  background-image: url(https://css-hrby.onrender.com/send(1).png);
+ /* background-image: url(https://css-hrby.onrender.com/send(1).png);*/
   background-repeat: no-repeat;
   background-position: center;
   transition: background-color 0.2s;
@@ -230,7 +239,6 @@
 .bpw-send-buttons {
   display: flex;
   flex-direction: row;
-  border-radius:10px;
 }
 .bpw-voice-recorder {
   display: flex;
