@@ -211,24 +211,21 @@
 .bpw-keyboard-quick_reply:hover{
   background-color:rgb(59, 60, 163);
 }
-/*.bpw-send-button {
+.bpw-send-button {
   justify-content: center; 
-  position:relative;
   align-items: center; 
   border-radius: 10px;
   padding: 20px; 
-  width: 54px; 
-  height: 54px; 
-  color: transparent; 
+  width: 24px; 
+  height: 24px; 
+  color: white; 
+  font-size:16px;
+  font-weight:strong;
   cursor: pointer;
-  background-image: url(./send.png) !important; 
-  background-repeat: no-repeat !important; 
-  background-position: center !important; 
+  background-color:rgb(59, 60, 163);
   transition: background-color 0.1s; 
 }
-#btn-send{
-  visibility:hidden !important;
-}*/
+
 .bpw-send-buttons {
   /* Sets the display mode to flex and the direction to horizontal */
   display: flex;
