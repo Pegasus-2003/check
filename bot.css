@@ -292,6 +292,7 @@
 .bpw-button{
   border-radius:10px;
   background-color:rgb(59, 60, 163);
+  opacity:0.8;
 {
 
 .bpw-button:hover{
