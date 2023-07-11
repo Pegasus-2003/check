@@ -2,7 +2,7 @@
 
 .bpw-floating-button {
   float: right;
-  background-color:rgb(59, 60, 163);
+  background-color: rgb(59, 60, 163);
   fill: white;
   cursor: pointer;
   outline: none;
@@ -20,9 +20,6 @@
   border: none;
   background-clip: padding-box;
   transition: width 1s, height 1s;
-}
-.bpw-floating-button:hover{
-  background-color: rgb(27, 28, 130);
 }
 .bpw-floating-button .bpw-floating-button-unread {
   display: block;
@@ -93,9 +90,9 @@
   display: flex;
 }
 
-.bpw-header-title-container .bpw-bot-avatar {
-  display: none;
-}
+//.bpw-header-title-container .bpw-bot-avatar {
+  //display: none;
+//}
 
 .bpw-header-title-container .bpw-bot-avatar svg {
   zoom: 0.6;
