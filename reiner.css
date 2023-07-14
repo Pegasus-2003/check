@@ -2,7 +2,7 @@
 
 .bpw-floating-button {
   float: right;
-  background-color: rgb(66,74,121);
+  background-color: #e09900;
   fill: white;
   cursor: pointer;
   outline: none;
@@ -14,7 +14,7 @@
   height: 52px;
   cursor: pointer;
   border-radius: 50%;
-  box-shadow: 0 2px 6px 0 rgb(27, 28, 130);
+  box-shadow: 0 2px 6px 0 #f0c76e;
   overflow: hidden;
   padding: 0;
   border: none;
@@ -106,7 +106,7 @@
 }
 .bpw-header-name {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 15px;
   color: white;
 }
 .bpw-header-subtitle {
@@ -115,7 +115,7 @@
   text-overflow: ellipsis;
   font-weight: 300;
   font-size: 12px;
-  color: pink;
+  color: white;
 }
 .bpw-header-unread {
   display: none;
