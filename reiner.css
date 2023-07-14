@@ -132,19 +132,14 @@
 }
 /*End of Header Title and subtitle*/
 
-
-
-
-
-
-
-
-
-
+.bpw-layout {
+  border-radius: 10px;
+  height: 60vh;
+}
 /*Header Container*/
 .bpw-header-container {
   border-radius: 10px; 
-  background: #3b3ca3; 
+  background: rgb(152,150,240); 
   border: 1px solid black; 
   padding: 20px; 
 }
@@ -223,7 +218,7 @@
   font-size:12px;
   font-weight:strong;
   cursor: pointer;
-  background-color:rgb(152,150,240);
+  background-color:#3b3ca3;
   transition: background-color 0.1s; 
   label { font-size: 0; }
   label:before { content: ">"; font-size: 14px; }
