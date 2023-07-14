@@ -2,7 +2,7 @@
 
 .bpw-floating-button {
   float: right;
-  background-color: rgb(152,150,240);
+  background-color: rgb(66,74,121);
   fill: white;
   cursor: pointer;
   outline: none;
@@ -134,12 +134,12 @@
 
 .bpw-layout {
   border-radius: 10px;
-  height: 60vh;
+  height: 80vh;
 }
 /*Header Container*/
 .bpw-header-container {
   border-radius: 10px; 
-  background: rgb(152,150,240); 
+  background: rgb(66,74,121); 
   border: 1px solid black; 
   padding: 20px; 
 }
@@ -204,7 +204,7 @@
   border-radius:10px;
 }
 .bpw-keyboard-quick_reply:hover{
-  background-color:rgb(152,150,240);
+  background-color:rgb(66,74,121);
 }
 .bpw-send-button {
   display:flex;
@@ -266,7 +266,7 @@
 /*User Reply*/
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content{
   font-color:white;
-  background-color:rgb(152,150,240);
+  background-color:rgb(66,74,121);
   border-radius: 15px; 
 }
 /*End of user reply*/
@@ -280,8 +280,8 @@
 {
 
 .bpw-button:hover{
-  background-color:rgb(152,150,240);
+  background-color:rgb(66,74,121);
 }
 .bpw-button, .bpw-button-alt :hover{
-  background-color:rgb(152,150,240);
+  background-color:rgb(66,74,121);
 }
