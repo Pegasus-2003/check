@@ -285,3 +285,19 @@
 .bpw-button, .bpw-button-alt :hover{
   background-color:rgb(66,74,121);
 }
+
+/* unvisited link */
+a:link {
+  color: white ;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
